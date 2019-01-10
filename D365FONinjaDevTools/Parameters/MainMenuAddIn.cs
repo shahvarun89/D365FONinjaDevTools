@@ -5,9 +5,6 @@ using Microsoft.Dynamics.Framework.Tools.MetaModel.Core;
 
 namespace D365FONinjaDevTools.Parameters
 {
-    /// <summary>
-    ///     TODO: Say a few words about what your AddIn is going to do
-    /// </summary>
     [Export(typeof(IMainMenu))]
     public class ParametersMenu : MainMenuBase
     {
@@ -45,7 +42,7 @@ namespace D365FONinjaDevTools.Parameters
         /// </summary>
         public override string Caption
         {
-            get { return "Parameters"; }
+            get { return "Ninja DevTools - Settings"; }
         }
 
         /// <summary>
